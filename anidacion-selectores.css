@@ -1,0 +1,22 @@
+body{
+    background: grey;
+}
+
+.boton-texto{
+    width: 100px;
+    background-color: red;
+}
+
+.boton-texto::before {
+    content: "Pasa por encima";
+}
+.boton-texto:hover::before {
+    
+    color: white;
+    background: green;
+    content: "hecho";
+    
+}
+H2{
+    color: white;
+}
